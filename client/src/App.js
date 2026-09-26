@@ -83,7 +83,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Quản lý sinh viên</h1>
+      <h1>Quản lý sinh viên - Nguyễn Văn A (MSSV: 123456)</h1>
       
       <h3>{isEditing ? 'Cập nhật sinh viên' : 'Thêm sinh viên'}</h3>
       <form onSubmit={handleSubmit} className="student-form">

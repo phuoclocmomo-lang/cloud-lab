@@ -10,7 +10,7 @@ services:
       - mongo-data:/data/db
 
   backend:
-    build: ./server
+    image: loccubu/mern-backend:1.0
     container_name: mern-backend
     ports:
       - "5000:5000"
@@ -20,7 +20,7 @@ services:
       - mongodb
 
   frontend:
-    build: ./client
+    image: loccubu/mern-frontend:2.0
     container_name: mern-frontend
     ports:
       - "3000:3000"
